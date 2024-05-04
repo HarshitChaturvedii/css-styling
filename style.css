@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+    width: 100%;
+}
+.top {
+    background-image:url(./abstract-blue-wave-background-digital-art-4k-wallpaper-uhdpaper.com-486@0@f.jpg);
+    background-repeat:inherit;
+    background-position:top;
+    height: 8%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    position: sticky;
+    top: 0
+    
+}
+.header{
+    color: rgb(179, 179, 230);
+    font-size:x-large;
+    font-weight: 600;
+    list-style: none;
+    display:flex;
+    padding:0px 0px;
+    margin: 0;
+    
+
+}
+.header li{
+    padding: 15px 20px;
+    text-decoration: none;
+    
+}
+.header li:hover{
+    opacity: 0.5;
+   cursor:pointer;
+
+}
+a{
+    color:rgb(179, 179, 230);
+    text-decoration: none;
+}    
+a:visited{
+    color: rgb(179, 179, 230)
+}
+.center{
+background-image: url(./abstract-blue-gradient-lines-3d_1539370940.jpg);
+background-size: cover;
+position: fixed;
+backdrop-filter: blur(10px);
+height: 100%;
+width: 100%;
+padding: 0px;
+}
+.head1{
+    height: 15%;
+    width: 40%;
+    padding: 10px 30px;
+    padding-bottom: 25px;
+    position: absolute;
+    margin: 0px 20px;
+    top: 10%;
+    left: 4%;
+    border: 2px solid blue;
+    background-color: rgba(255, 255, 255, 0.077);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    transition-duration: 5s;
+    display: flex;
+    text-align: center;
+}
+.head1:hover{
+top: 10%;
+left: 0%;
+height: 15%;
+width: 94%;
+transition-duration: 3s;
+backdrop-filter: blur(20px);
+border: 2px solid blue;
+border-radius: 10px;
+padding-bottom: 0px;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.729);
+   font-weight: 500;
+   font-family:'Times New Roman', Times, serif;
+   position:static;
+   
+}
+
+::-moz-selection{
+    color: none;
+  background-color: rgba(71, 90, 201, 0);
+}
+.head1 img{
+    height: 50px;
+    filter: blur(1px);
+    margin-top: 30px; 
+    margin-left: 10px;
+    transition: 5s
+}
+.head1:hover img{
+    filter:blur(0px);
+    transition: 3s;
+}
+.head2{
+    height: 15%;
+    width: 40%;
+    padding: 10px 30px;
+    padding-bottom: 25px;
+    position: absolute;
+    margin: 0px 20px;
+    top: 32%;
+    right: 4%;
+    border: 2px solid blue;
+    background-color: rgba(255, 255, 255, 0.077);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    transition-duration: 5s;
+    display: flex;
+    text-align: center;
+}
+.head2:hover{
+    top: 32%;
+right: 0%;
+height: 15%;
+width: 93%;
+transition-duration: 3s;
+backdrop-filter: blur(20px);
+border: 2px solid blue;
+border-radius: 10px;
+padding-bottom: 0px;
+}
+.head2 img{
+    height: 50px;
+    filter: blur(1px);
+    margin-top: 30px; 
+    margin-left: 10px;
+    transition: 5s
+}
+.head2:hover img{
+    filter:blur(0px);
+    transition: 3s;
+}
